@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+
+body{
+    height:100vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-image: url(backkk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px 0 20px;
+    font-size: 30px;
+}
+.navbar ul li a:hover{
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    color: seashell;
+    
+}
+
+
+
+.main
+{
+    display: flex;
+    padding: 20px;
+    height:80vh;
+}
+
+
+.question-box{
+    border: 2px solid green;
+    border-radius: 8px;
+    height: 300px;
+    
+}
+
+.question-box > p{
+    margin-left: 50px;
+}
+
+.question-box ul li{
+    display: inline-block;
+}
+
+
+.proter-region
+{
+    height: 100%;
+    background-color:#FED2AA;
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin-left: 50px;
+    border-radius:10px;
+}
+
+.video
+{
+    height: 200px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: blanchedalmond;
+}
+
+
+.video>p{
+    text-align: center;
+    margin-top:27%;
+    font-size:30px;
+}
+
+
+.number-of-question ul li {
+   list-style: none;
+   border: 1px solid black;
+}
+
+
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	/* min-width: 696px; */
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+
+    .no{
+        border: 1px solid green;
+        padding: 4px;
+    }
